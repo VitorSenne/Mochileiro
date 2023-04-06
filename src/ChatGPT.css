@@ -1,0 +1,135 @@
+#background-roteiro {
+    top: 115%;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #FFFDFD;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#background-roteiro h2 {
+    position: absolute;
+    width: auto;
+    height: 32px;
+    left: 12%;
+    top: 3%;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #0e0e10;
+}
+
+#input-roteiro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 48%;
+    height: 50px;
+    left: 10%;
+    top: 15%;
+    border: solid 0px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#input-roteiro #search-icon {
+    position: relative;
+    width: 33px;
+    height: 33px;
+    left: 2%;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+}
+
+#user-roteiro {
+    position: relative;
+    left: 2%;
+    border: none;
+    width: 85%;
+    outline: none;
+    font-size: 20px;
+    line-height: 24px;
+    mix-blend-mode: darken;
+    opacity: 0.8;
+}
+
+#input-roteiro button {
+    position: relative;
+    background-color: white;
+    right: 2%;
+    border: none;
+}
+
+#input-roteiro #microfone-icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+}
+
+#input-roteiro #microfone-icon {
+    left: 0px;
+}
+
+
+#download {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 37%;
+    top: 15%;
+    background-color: white;
+    border: solid 0px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#download img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    mix-blend-mode: darken;
+    opacity: 0.4;
+}
+
+#email {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 31%;
+    top: 15%;
+    background-color: white;
+    border: solid 0px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#email img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    mix-blend-mode: darken;
+    opacity: 0.6;
+}
+
+#roteiro-return {
+    display: flex;
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 6%;
+    top: 30%;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}

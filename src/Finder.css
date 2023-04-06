@@ -1,0 +1,110 @@
+#background-finder {
+    top: 66px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 1106px;
+    bottom: 0px;
+    background-color: #FFFDFD;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#background-finder h2 {
+    position: absolute;
+    width: 420px;
+    height: 32px;
+    left: 5%;
+    top: 3%;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #0e0e10;
+}
+
+#input-local {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 48%;
+    height: 50px;
+    left: 10%;
+    top: 8%;
+    border: solid 0px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#input-local #search-icon {
+    position: relative;
+    width: 33px;
+    height: 33px;
+    left: 2%;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+}
+
+#user-local {
+    position: relative;
+    left: 2%;
+    border: none;
+    width: 85%;
+    outline: none;
+    font-size: 20px;
+    line-height: 24px;
+    mix-blend-mode: darken;
+    opacity: 0.8;
+}
+
+#input-local button {
+    position: relative;
+    background-color: white;
+    right: 2%;
+    border: none;
+}
+
+#input-local #microfone-icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+}
+
+#input-local #microfone-icon {
+    left: 0px;
+}
+
+#filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 10%;
+    height: 50px;
+    right: 30%;
+    top: 8%;
+    border: solid 0px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+#API {
+    position: absolute;
+    width: 811px;
+    height: 500px;
+    left: 10%;
+    top: 15%;
+    border: solid 0px;
+    border-radius: 15px;
+    background-color: #6eb9ff;
+}
