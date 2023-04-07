@@ -11,7 +11,7 @@ export function Finder() {
                 <button><img src="public\microfone.png" id="microfone-icon" /></button>
             </div>
             <button id="filter">Filtros</button>
-            <div id="API"></div>
+
         </div>
     )
 }
