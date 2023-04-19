@@ -3,6 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none';
+  connect-src 'self' *.googleapis.com *.openai.com http://localhost:3000/api ;
+  font-src 'self' data: *.googleapis.com *.gstatic.com *.typekit.net ;
+  img-src 'self' data: *.googleapis.com *.gstatic.com;
+  style-src 'self' 'unsafe-inline' *.googleapis.com;
+  script-src 'self' 'unsafe-inline' blob: *.googleapis.com;
+    script-src-elem 'self' 'unsafe-inline' blob: *.googleapis.com" ;>
+
   <link rel="icon" type="image/svg+xml" href="/map.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mochileiro</title>
